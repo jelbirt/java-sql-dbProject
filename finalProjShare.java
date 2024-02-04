@@ -305,7 +305,7 @@ public class finalProjShare {
 	// Method to create/return URL connection (to access data)
 	public URLConnection getURLConnect(String sourceURL) throws IOException {
 			System.out.print("Establishing connection to " + sourceURL + "...\t");
-		    URL myURL = new URL(sourceURL);
+		    URL myURL = URI.toURL(sourceURL);
 		    URLConnection myURLConnection = myURL.openConnection();
 		    myURLConnection.connect();
 		    System.out.println("Connected");
