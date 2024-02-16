@@ -120,7 +120,7 @@ public class finalProjShare {
 	 */
 	private Object[][] INPUT = {
 		{
-			"https://masscannabiscontrol.com/resource/meau-plav.csv",	// example data used for project
+			"exampleurl1.csv",	// example data used for project
 			"plant_info",
 			true,
 			",",
@@ -129,7 +129,7 @@ public class finalProjShare {
 			new String[] {"Date","int","int","int","int","int","int","int","int","int","int"}
 		},
 		{
-			"https://masscannabiscontrol.com/resource/rqtv-uenj.csv",
+			"exampleurl2.csv",
 			"avg_price_info",
 			true,
 			",",
@@ -305,7 +305,7 @@ public class finalProjShare {
 	// Method to create/return URL connection (to access data)
 	public URLConnection getURLConnect(String sourceURL) throws IOException {
 			System.out.print("Establishing connection to " + sourceURL + "...\t");
-		    URL myURL = URI.toURL(sourceURL);
+		    URL myURL = new URL(sourceURL);
 		    URLConnection myURLConnection = myURL.openConnection();
 		    myURLConnection.connect();
 		    System.out.println("Connected");
