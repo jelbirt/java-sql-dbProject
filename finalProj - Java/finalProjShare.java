@@ -5,7 +5,7 @@ package cs286;
  *  Methodology focusing on abstraction and flexibility/scalability
  *  Implementing Object[][] arrays and PreparedStatement() as key components
  *  12/6/2023 - Operational to connect to DB and URL, but incompatible with current Date format for dataset
- *  Likely fully operational for other date formats or with date format adjustments.
+ *  Likely operational for other date formats or with date format adjustments.
  */
 
 import java.io.BufferedReader;
