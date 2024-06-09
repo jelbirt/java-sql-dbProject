@@ -440,14 +440,6 @@ public class finalProjShare {
 		System.out.println("Writing to Excel Complete.");
 		System.out.println("Access the Excel output file at: " + FILE_OUT_NAME);
 	}
-	/* TODO : Buttoning up:
-	*  1. Ensure DBConnections and URLConnections are closed at appropriate times
-	*  2. Comment code thoroughly
-	*  3. Running Comments - create boolean variable "debug"
-	*  			- If debug == true, various System.out.println() messages will print throughout the code to help identify issues
-	*  4. Remove "yellow-line" variables --> waste of memory
-	*  
-	*/ 
 	
 	
 }
